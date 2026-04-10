@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python servidor_web.py",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
